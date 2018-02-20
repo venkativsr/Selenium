@@ -14,7 +14,7 @@ public class SimpleTest {
 	
 	@Before
 	public void setup(){
-		 System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "chromedriver");
 		driver = new ChromeDriver();
 		
 	}
