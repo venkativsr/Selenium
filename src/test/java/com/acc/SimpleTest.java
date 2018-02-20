@@ -22,7 +22,7 @@ public class SimpleTest {
 	@After
 	public void trminate(){
 		
-		driver.quit();
+		//driver.quit();
 		
 	}
 	
